@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body {
+    background: black;
+    color: white;
+    overflow-x: hidden;
+}
+.sidebar{
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    height: 80px;
+    border-bottom-right-radius: 70px;
+    border-bottom-left-radius: 70px;
+}
+.sidebar nav {
+    float: right;
+    margin-right: 40px;
+}
+.sidebar nav li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+    padding: 10px;
+}
+.sidebar nav li a {
+    text-decoration: none;
+    color:black;
+    display: flex;
+    font-size: 20px;
+}
+.websitelink {
+    border: 10px;
+    margin-left: 700px;
+    margin-top: 200px;
+    /* margin-bottom: 400px; */
+    font-size: 35px;
+    /* background-color: blue; */
+    width: 50px;
+    align-items: center;
+    color: #fff;
+}
+.main {
+    width: 80vw;
+}
+.container1 {
+    display: flex;
+}
+.container2 {
+    display: flex;
+}
+.container3 {
+    display: flex;
+}
+.infocontainer {
+    /* background-color: rgb(163, 43, 6); */
+    margin: 60px auto;
+    margin-left: 10px;
+    margin-top: 50px;
+    height: 80vh;
+    width: 700px;
+    justify-content: space-around;
+    padding: 20px;
+}
+.devinfo {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.devpic img {
+    margin-left: 850px;
+    margin-bottom: 400px;
+    margin-top: -500px;
+    margin-right: 100px;
+    height: 60vh;
+    background: #d4d7dd;
+    border: 50px solid #fff;
+    box-shadow: 0 021px 3px rgba(0, 0, 0, 0.0) inset, 0 15px 54px, 10px, rgba(0, 0, 0, 0.3);
+    padding: 9px;
+    border-radius: 21px;
+}
+.devpic2 img {
+    margin-left: 200px;
+    margin-top: 30px;
+    height: 60vh;
+    width: 30vh;
+    border: 10px solid #fff;
+    border-radius: 20%;
+}
+.hello {
+    font-size: 60px;
+    margin-left: 120px;
+}
+.name {
+    font-size: 80px;
+    font-weight: bold;
+    margin-left: 120px;
+}
+.about {
+    font-size: 15px;
+    margin-left: 120px;
+}
+.moreabout {
+    padding: 10px;
+    font-size: 30px;
+    margin-left: 120px;
+    padding: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.buttons {
+    margin: 32px;
+    margin-left: 140px;
+}
+.btn {
+    padding: 9px 14px;
+    border-radius: 22px;
+    border-color: white;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    font-size: 21px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: white;
+    color: black;
+}
+.btn-sm {
+    font-size: 15px;
+    padding: 10px;
+    margin-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.buttonbg {
+    padding: 20px 25px;
+    border-radius: 22px;
+    border-color: white;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    font-size: 21px;
+    margin-top: 50px;
+    cursor: pointer;
+    align-items: center;
+    margin-left: 20px;
+}
+.buttonbg:hover {
+    color: black;
+    background-color: white;
+}
+.main h4{
+    margin-top: 40px;
+    margin-left: 50px;
+    font-size: 20px;
+    text-decoration: underline;
+}
+.contactform {
+    padding: 50px 30px;
+    padding-top: 5px;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 20px;
+    font-size: 14px;
+    /* background-color: blue; */
+}
+.contactform form div {
+    padding: 5px 0;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+.contactform form div input {
+    width: 30vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 6px 0;
+    background-color: rgb(224, 228, 228);
+}
+#emailHelp {
+    font-size: 20px;
+    color: midnightblue;
+    margin: 0 5 px;
+    padding: 3px 0 0 0;
+}
+#form-check {
+    flex-direction: row;
+}
+#form-check input {
+    width: 12px;
+    margin: 2px;
+    margin-right: 10px;
+}
+.about2 h5 {
+    text-align: center;
+}
+.about2 h1 {
+    margin-top: 10px;
+    text-align: center;
+}
+.aboutme {
+    margin-top: 30px;
+    text-align: center;
+    text-transform: capitalize;
+    margin-left: 40px;
+    margin-right: 400px;
+    text-align: center;
+}
+.info {
+    /* background-color: blue; */
+    margin-left: 150px;
+    margin-top: 20px;
+}
+.photo {
+    /* background-color: brown; */
+    width: 500px;
+}
+.container3 {
+    margin-bottom: 100px;
+}
+.about3 h1{
+    text-align: center;
+}
+.container4 {
+    position: relative;
+    width: 1200px;
+    height: 350px;
+    margin: 50px auto;
+    /* background: red; */
+}
+.container4 .box {
+    position: relative;
+    width: 350px;
+    height: 250px;
+    background: white;
+    /* background: #ff0; */
+    float: left;
+    margin: 20px;
+    box-sizing: border-box;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+.container4 .box:hover{
+    background-color: rgb(234, 230, 226);
+}
+.box h2{
+    color: black;
+    text-align: center;
+    stroke-width: 50px;
+    margin-top: 10px;
+}
+.box h3{
+    color: black;
+    text-align: center;
+}
+.box h4{
+    margin-top: 20px;
+    color: black;
+    text-align: center;
+}
+.box h1{
+    color: black;
+    text-align: center;
+}
+.container5{
+    background-color: white;
+    height: 365px;
+    border-top-right-radius: 125px;
+    border-top-left-radius: 125px;
+}
+.container5 h1{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 50px;
+    color: black;
+}
+.container5 h5{
+    padding-top: 10px;
+    text-align: center;
+    color: black;
+}
+.container5 h3{
+    padding-top: 10px;
+    text-align: center;
+    color: black;
+}
+.row1 nav {
+    margin-left: 430px;
+}
+
+.row1 nav li {
+    display: inline-block;
+    line-height: 80px;
+    align-items: center;
+    padding: 10px;
+    font-size: 20px;
+}
+.row1 nav li a {
+    text-decoration: none;
+    color: black
+    
+}
+.row2 {
+    border: 10px;
+    margin-left: 670px;
+    font-size: 40px;
+    width: 50px;
+    display: flex;
+}
+.row2 a{
+    padding: 15px;
+}

@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body {
+    background: black;
+    color: white;
+    overflow: hidden;
+}
+.sidebar{
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    height: 80px;
+    border-bottom-right-radius: 70px;
+    border-bottom-left-radius: 70px;
+}
+.sidebar nav {
+    float: right;
+    margin-right: 40px;
+
+}
+.sidebar nav li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+    padding: 10px;
+}
+.sidebar nav li a {
+    text-decoration: none;
+    color:black;
+    display: flex;
+    font-size: 20px;
+}
+.conatiner {
+    position: relative;
+    width: 1200px;
+    height: 500px;
+    margin: 50px auto;
+    /* background: red; */
+}
+.conatiner .box {
+    position: relative;
+    width: 350px;
+    height: 400px;
+    background: white;
+    /* background: #ff0; */
+    float: left;
+    margin: 20px;
+    box-sizing: border-box;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+.conatiner .box h3 {
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+.conatiner .box:hover{
+    background-color: rgb(234, 230, 226);
+}
+.conatiner .box img {
+    margin: 50px;
+    margin-top: 30px;
+    color: black;
+    height: 100px;
+}
+.conatiner .box .img1 h2 {
+    color: rgb(91, 107, 154);
+    margin-top: -50px;
+    margin-left: 63px;
+    font-size: 30px;
+}
+.conatiner .box .img2 {
+    margin-left: 150px;
+    margin-top: -180px;
+}
+.conatiner .box .img2 h2 {
+    color: rgb(73, 101, 185);
+    margin-top: -60px;
+    margin-left: 60px;
+    font-size: 40px;
+}
+.conatiner .box .img3 img {
+    margin-left: 120px;
+    margin-top: 10px;
+    height: 100px;
+    width: 100px;
+}
+.conatiner .box .img3 h2 {
+    color: rgb(73, 101, 185);
+    margin-top: -50px;
+    margin-left: 115px;
+    font-size: 25px;
+}
+.conatiner .box .img4 h3 {
+    color: rgb(243, 100, 12);
+    margin-top: -60px;
+    margin-left: 65px;
+    font-size: 30px;
+}
+.conatiner .img3 {
+    margin-right: px;
+    height: 10px;
+    width: 10px;
+}
+.conatiner .box .img5 img {
+    margin-left: 200px;
+    margin-top: -140px;
+    margin-bottom: 300px;
+    height: 100px;
+    width: 100px;
+}
+.conatiner .box .img5 h3 {
+    color: rgb(36, 110, 201);
+    margin-top: -310px;
+    margin-left: 220px;
+    margin-bottom: 200px;
+    font-size: 30px;
+}
+.conatiner .box .img6 img {
+    margin-left: 50px;
+    margin-top: -170px;
+    margin-bottom: 300px;
+    height: 100px;
+    width: 100px;
+}
+.conatiner .box .img6 h3 {
+    color: rgb(230, 201, 14);
+    margin-top: -310px;
+    margin-left: 28px;
+    margin-bottom: 200px;
+    font-size: 25px;
+}
+.conatiner .box .img7 img {
+    margin-left: 200px;
+    margin-top: -370px;
+    margin-bottom: 300px;
+    height: 100px;
+    width: 100px;
+}
+.conatiner .box .img7 h3 {
+    color: rgb(30, 233, 240);
+    margin-top: -310px;
+    margin-left: 210px;
+    margin-bottom: 200px;
+    font-size: 25px;
+}
+.conatiner .box .img8 img {
+    margin-left: 5px;
+    margin-top: 20px;
+    margin-bottom: 300px;
+    height: 120px;
+    width: 174px;
+}
+.conatiner .box .img8 h3 {
+
+    color: rgb(233, 111, 41);
+    margin-top: -310px;
+    margin-left: 54px;
+    margin-bottom: 200px;
+    font-size: 25px;
+
+}
+.conatiner .box .img9 img {
+    margin-left: 160px;
+    margin-top: -350px;
+    margin-bottom: 337px;
+    height: 110px;
+    width: 164px;
+}
+.conatiner .box .img9 h3 {
+    color: rgb(59, 173, 7);
+    margin-top: -343px;
+    margin-left: 180px;
+    margin-bottom: 200px;
+    font-size: 25px;
+
+}
